@@ -7,7 +7,7 @@ p {
 }
 
 body {
-  font-family: Poppins;
+  font-family: Poppins Arial, Helvetica, sans-serif;
   width: 375px;
   background-image: url(/images/header-shapes\ mobile@2x.svg);
   background-repeat: no-repeat;
