@@ -2,7 +2,8 @@
 
 # Project Name
 
--Portfolio setup for mobile
+-Portfolio setup for mobile.
+-This projects demonstrates the behaviour of a website page and how it responds to different screen sizes 
 
 
 ## Built With
