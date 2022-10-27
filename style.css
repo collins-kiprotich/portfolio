@@ -5,3 +5,69 @@ h1 {
 p {
   color: greenyellow;
 }
+
+body {
+  font-family: Poppins;
+  width: 375px;
+  background-image: url(/images/header-shapes\ mobile@2x.svg);
+  background-repeat: no-repeat;
+}
+
+header {
+  width: 323px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .left-side {
+  font-style: normal;
+  font-weight: 700px;
+  font-size: 18px;
+  color: #6070ff;
+  margin-left: 24px;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+}
+
+.headline h2 {
+  color: #172b4d;
+  font-size: 40px;
+  line-height: 52px;
+  margin-left: 24px;
+  margin-right: 24px;
+  font-weight: 700px;
+  width: 250px; 
+}
+
+.headline .para {
+  color: #344563;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px;
+  margin-top: 12px;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
+}
+
+.social-media .headline {
+  color: #7f8cff;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 12px;
+}
