@@ -82,7 +82,8 @@ li {
 ul .languages {
  padding: 0px 0px 0px 0px;
 }
-.see-project-button {
+.see-project-button,
+.get-my-resume-button {
   padding: 12px;
   color: #396DF2;
   font-family: 'Poppins';
@@ -93,11 +94,115 @@ ul .languages {
   border-radius: 10px;
   background-color: white;
 }
-body{
-  background-color: rgb(222, 217, 217);
-}
+
 section {
   background-color: white;
   border-radius: 5%;
   padding-top: 20px;
+}
+
+.about-myself {
+padding-left: 24px;
+padding-right: 24px;
+font-family: 'Poppins';
+margin-bottom: 220px;
+}
+
+.about-myself h2{
+margin-top: 114px;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+margin-bottom: 0px;
+
+}
+
+.about-myself p {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  font-family: 'poppins';
+  font-weight: 400px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.social-media-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  text-decoration: none;
+}
+ul  {
+  display: flex;
+  flex-direction: row;
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
+.about-myself .icon-container {
+  margin-right: 22.92px;
+}
+
+.get-my-resume-button{
+  margin-top: 26px;
+}
+.self-profession {
+  display: flex;
+  flex-direction: column;
+}
+
+ul .profesion-container {
+  display: flex;
+}
+.frameworks,
+.skills,
+.language-select {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.language-items {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.dropdown {
+  width: 24px;
+  height: 40px;
+  padding-top: 25px;
+  padding-right: 42px;
+}
+
+.about-myself h3 {
+font-family: 'Poppins';
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+}
+
+.java-html-css-container {
+  display: grid;
+  grid-template-rows: rows;
+  width: 1fr;
+  grid-row: 10px;
+
+}
+
+.language-images {
+  width: 48px;
+  height: 48px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+.language-type-container {
+  display: flex;
+  background-color:#F7F7F9;
+  margin-bottom: 8px;
+  align-items: center;
+  border-radius: 3px;
+  padding-left: 12px;
+
 }
