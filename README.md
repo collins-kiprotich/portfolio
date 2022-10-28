@@ -20,8 +20,8 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
 -on your terminal clone the repository of this project[repo;https://github.com/collins-kiprotich/portfolio.git] using command git clone (repo) 
--From your terminal switch from main branch to html-css branch
--Then open the  index.html file using your preferred text editor and run it on your browser.
+-From your terminal switch from main branch to works-projects-branch
+-Then open the  index2.html file using your preferred text editor and run it on your browser.
 
 
 
