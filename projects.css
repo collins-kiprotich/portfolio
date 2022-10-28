@@ -7,11 +7,10 @@
   margin-left: 24px;
   margin-right: 24px;
   margin-bottom: 40px;
-  
 }
 
-h2{
-  font-family: Poppins,Arial, Helvetica, sans-serif;
+h2 {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 32px;
   line-height: 44px;
@@ -21,30 +20,29 @@ h2{
 
 .nav-elements {
   display: flex;
-  
 }
 
 .nav-elements a {
   text-decoration: none;
-  font-family: Poppins,Arial, Helvetica, sans-serif;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color:  #7A869A;
+  color: #7a869a;
   margin-right: 12px;
 }
 
-.counter{
-  background-color: #C1C7D0;
+.counter {
+  background-color: #c1c7d0;
   margin-right: 12px;
 }
 
 .nav-elements .current-nav {
-  color:  #344563;
+  color: #344563;
 }
 
 p {
-  font-family: 'poppins';
+  font-family: 'poppins', Arial, Helvetica, sans-serif;
   font-weight: 400px;
   font-size: 15px;
   line-height: 24px;
@@ -55,41 +53,38 @@ p {
   display: flex;
   align-items: center;
   flex: start;
-
 }
 
 .language-button {
   margin-right: 10px;
-  color: #6070FF;
+  color: #6070ff;
   border: none;
-  font-family: 'Poppins';
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-weight: 500px;
   font-size: 12px;
   line-height: 16px;
   padding: 4px 12px;
   border-radius: 9px;
   margin-bottom: 20px;
-
 }
 
-ul {
-  margin-left: 0px;
-}
 li {
   list-style: none;
-  margin: 0px;
+  margin: 0;
 }
+
 ul .languages {
- padding: 0px 0px 0px 0px;
+  padding: 0 0 0 0;
 }
+
 .see-project-button,
 .get-my-resume-button {
   padding: 12px;
-  color: #396DF2;
-  font-family: 'Poppins';
+  color: #396df2;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-size: 17px;
   line-height: 24px;
-  border: 1px solid #396DF2;
+  border: 1px solid #396df2;
   margin-bottom: 10px;
   border-radius: 10px;
   background-color: white;
@@ -102,25 +97,24 @@ section {
 }
 
 .about-myself {
-padding-left: 24px;
-padding-right: 24px;
-font-family: 'Poppins';
-margin-bottom: 220px;
+  padding-left: 24px;
+  padding-right: 24px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  margin-bottom: 220px;
 }
 
-.about-myself h2{
-margin-top: 114px;
-font-weight: 700;
-font-size: 40px;
-line-height: 52px;
-margin-bottom: 0px;
-
+.about-myself h2 {
+  margin-top: 114px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  margin-bottom: 0;
 }
 
 .about-myself p {
   margin-top: 12px;
   margin-bottom: 12px;
-  font-family: 'poppins';
+  font-family: 'poppins', Arial, Helvetica, sans-serif;
   font-weight: 400px;
   font-size: 15px;
   line-height: 24px;
@@ -134,19 +128,22 @@ margin-bottom: 0px;
   color: #7f8cff;
   text-decoration: none;
 }
-ul  {
+
+ul {
   display: flex;
   flex-direction: row;
-  padding-left: 0px;
-  margin-bottom: 0px;
+  padding-left: 0;
+  margin-bottom: 0;
 }
+
 .about-myself .icon-container {
   margin-right: 22.92px;
 }
 
-.get-my-resume-button{
+.get-my-resume-button {
   margin-top: 26px;
 }
+
 .self-profession {
   display: flex;
   flex-direction: column;
@@ -155,6 +152,7 @@ ul  {
 ul .profesion-container {
   display: flex;
 }
+
 .frameworks,
 .skills,
 .language-select {
@@ -177,10 +175,10 @@ ul .profesion-container {
 }
 
 .about-myself h3 {
-font-family: 'Poppins';
-font-weight: 500;
-font-size: 20px;
-line-height: 24px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .java-html-css-container {
@@ -188,7 +186,6 @@ line-height: 24px;
   grid-template-rows: rows;
   width: 1fr;
   grid-row: 10px;
-
 }
 
 .language-images {
@@ -197,12 +194,12 @@ line-height: 24px;
   margin-left: 12px;
   margin-right: 12px;
 }
+
 .language-type-container {
   display: flex;
-  background-color:#F7F7F9;
+  background-color: #f7f7f9;
   margin-bottom: 8px;
   align-items: center;
   border-radius: 3px;
   padding-left: 12px;
-
 }
