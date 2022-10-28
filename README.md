@@ -4,6 +4,7 @@
 
 -Portfolio setup for mobile.
 -This projects demonstrates the behaviour of a website page and how it responds to different screen sizes 
+-Contains two sections; projects list and about myself.
 
 
 ## Built With
