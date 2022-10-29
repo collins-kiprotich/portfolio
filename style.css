@@ -1,88 +1,295 @@
 
 body {
-  font-family: Poppins, Arial, Helvetica, sans-serif;
-}
-
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-left: 24px;
-  margin-right: 24px;
+  background-color: #e5e5e5;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
 
 section {
+  background-color: #e5e5e5;
+}
+
+.homepage {
+  padding-left: 24px;
+  padding-right: 24px;
+  margin-bottom: 120px;
+  background-color: white;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 44px;
+  padding-bottom: 14px;
+  padding-top: 24px;
+  margin-top: 44px;
+}
+
+.logo {
+  text-decoration: none;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.headline {
   background-image: url(/images/header-shapes-mobile.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.section-header {
-  color: #172b4d;
+h1 {
+  padding-top: 120px;
+}
+
+h1,
+h2 {
+  margin-bottom: 0;
+  margin-top: 0;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  font-weight: 700px;
-  padding-top: 114px;
-  padding-left: 12px;
+  color: #172b4d;
 }
 
-h1 {
-  margin-bottom: 12px;
-}
-
-h2 {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-p {
+.headline p {
   margin-top: 12px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
   color: #344563;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 500px;
-  margin-left: 24px;
-}
-
-.social-media {
-  display: flex;
-  flex-direction: column;
-  flex-shrink: 1;
-  margin-left: 24px;
-}
-
-.social-icons {
-  display: flex;
-}
-
-.social-media .headline {
-  color: #7f8cff;
-  font-size: 16px;
-  line-height: 24px;
   margin-bottom: 12px;
 }
 
-nav a {
+.headline .social-media-link {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  color: #6070ff;
-}
-
-nav a,
-.headline a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
   text-decoration: none;
 }
 
-.headline a {
-  color: #7f8cff;
-  font-size: 16px;
+.headline li {
+  display: flex;
+  flex-direction: row;
+}
+
+.headline .icon-container {
+  padding: 0;
+  margin-right: 20px;
+}
+
+.works {
+  display: grid;
+  grid-template-columns: auto;
+  margin-left: 24px;
+  margin-right: 24px;
+  background-color: #e5e5e5;
+}
+
+.parent-container {
+  padding: 16px;
+  border: 1px solid rgb(206, 202, 202);
+  border-radius: 20px;
+  margin-bottom: 114px;
+  background-color: white;
+}
+
+.works h2 {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  margin-bottom: 20px;
+  margin-top: 12px;
+}
+
+.works .li-elements {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
+.li-elements li {
+  margin-right: 12px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+}
+
+ul .current-li {
+  color: #344563;
+}
+
+.works p {
+  font-family: 'poppins', Arial, Helvetica, sans-serif;
+  font-weight: 400px;
+  font-size: 15px;
   line-height: 24px;
+  color: #344563;
+}
+
+.languages {
+  padding: 0 0 0 0;
+  display: flex;
+  align-items: center;
+  flex: start;
+}
+
+.language-button {
+  margin-right: 10px;
+  color: #6070ff;
+  border: none;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-weight: 500px;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 4px 12px;
+  border-radius: 9px;
+  margin-bottom: 20px;
+}
+
+.languages li {
+  list-style: none;
+  margin-left: 0;
+}
+
+.see-project-button {
+  margin-bottom: 40px;
+}
+
+.see-project-button,
+.get-my-resume-button {
+  padding: 12px;
+  color: #396df2;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  line-height: 24px;
+  border: 1px solid #396df2;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.about-myself {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-radius: 0 70px 0 0;
+  padding-top: 114px;
+  margin-bottom: 114px;
+}
+
+.about-myself h2 {
+  margin-top: 114px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
   margin-bottom: 0;
 }
 
-.icon-container {
+.about-myself p {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  font-family: 'poppins', Arial, Helvetica, sans-serif;
+  font-weight: 400px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.about-myself .social-icons {
+  display: flex;
+  flex-direction: row;
   padding-left: 0;
-  padding-right: 24px;
-  margin-top: 0;
+  list-style: none;
+  margin-bottom: 22px;
+}
+
+.about-myself .icon-container {
+  margin-right: 22.92px;
+}
+
+.self-profession {
+  display: flex;
+  flex-direction: column;
+}
+
+ul .profesion-container {
+  display: flex;
+}
+
+.frameworks,
+.skills,
+.language-select {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.language-items {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.dropdown {
+  width: 24px;
+  height: 40px;
+  padding-top: 25px;
+  padding-right: 42px;
+}
+
+.about-myself h3 {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.java-html-css-container {
+  display: flex;
+  flex-direction: column;
+  width: 1fr;
+  grid-row: 10px;
+  list-style: none;
+}
+
+.language-images {
+  width: 48px;
+  height: 48px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.language-type-container {
+  display: flex;
+  background-color: #f7f7f9;
+  margin-bottom: 8px;
+  align-items: center;
+  border-radius: 3px;
+  padding-left: 12px;
+}
+
+.about-myself h5 {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #253858;
 }
