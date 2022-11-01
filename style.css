@@ -55,6 +55,19 @@ h2 {
   color: #172b4d;
 }
 
+form p {
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #fff;
+}
+
 .headline p {
   margin-top: 12px;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
@@ -107,6 +120,19 @@ li {
   background-color: white;
 }
 
+form h2 {
+  padding-top: 103px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #fff;
+}
+
 .works h2 {
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
@@ -136,19 +162,6 @@ li {
 
 ul .current-li {
   color: #344563;
-}
-
-form p {
-  display: flex;
-  justify-content: center;
-  margin-top: 12px;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
-  text-align: center;
-  color: #ffffff;
 }
 
 .works p {
@@ -210,19 +223,6 @@ form p {
   border-radius: 0 70px 0 0;
   padding-top: 114px;
   margin-bottom: 114px;
-}
-
-form h2 {
-  padding-top: 103px;
-  display: flex;
-  justify-content: center; 
-  margin-bottom: 0;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  color: #ffffff;
 }
 
 .about-myself h2 {
@@ -371,5 +371,5 @@ form button {
 }
 
 .forms-section {
-  margin-bottom: 200px ;
+  margin-bottom: 200px;
 }
