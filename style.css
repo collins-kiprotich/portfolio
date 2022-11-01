@@ -294,86 +294,82 @@ ul .profesion-container {
   color: #253858;
 }
 .form-list {
-  list-style-type: none; 
+  list-style-type: none;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
-  /* align-items: center; */
 }
 
-fieldset{
-   /* display: flex;
-   justify-content: center; */
- border-radius: 200px 0 0 0;
- border: none;
- background: #6070FF;
- padding-left: 24px;
- padding-right: 24px;
- background-image: url(forms/contact-form-shapes-mobile.png);
- background-size: cover;
+fieldset {
+  border-radius: 200px 0 0 0;
+  border: none;
+  background: #6070FF;
+  padding-left: 24px;
+  padding-right: 24px;
+  background-image: url(forms/contact-form-shapes-mobile.png);
+  background-size: cover;
 }
 
 form h2 {
- padding-top: 103px;
- display: flex;
- justify-content: center;  
- margin-bottom: 0;
- font-family: 'Poppins';
- font-style: normal;
- font-weight: 700;
- font-size: 40px;
- line-height: 52px;
- color: #FFFFFF;
+  padding-top: 103px;
+  display: flex;
+  justify-content: center;  
+  margin-bottom: 0;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #FFFFFF;
 }
 
 form p {
- display: flex;
- justify-content: center;  
- margin-top: 12px;
- font-family: 'Poppins', Arial, Helvetica, sans-serif;
- font-style: normal;
- font-weight: 400;
- font-size: 20px;
- line-height: 28px;
- text-align: center; 
- color: #FFFFFF;
+  display: flex;
+  justify-content: center;  
+  margin-top: 12px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center; 
+  color: #FFFFFF;
 }
 
-li{
+li {
 margin-top: 0px;
 }
 
 li {
- padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 form input {
- display: flex;
- font-family: 'Poppins', Arial, Helvetica, sans-serif;
- padding-left: 16px;
- width: 300px;
- height: 40px;
- border-radius: 5px;
+  display: flex;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  padding-left: 16px;
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
 }
 
 form textarea {
- border-radius: 5px;
- font-family: 'Poppins', Arial, Helvetica, sans-serif;
- padding-left: 16px;
- width: 300px;
+  border-radius: 5px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  padding-left: 16px;
+  width: 300px;
 }
 
 form button {
- color: #6070FF;
- padding: 12px 16px 12px 16px;
- margin-left: 0 ;
- border-radius: 5px;
- font-family: 'Poppins', Arial, Helvetica, sans-serif;
- font-style: normal;
- font-weight: 500;
- font-size: 17px;
- background-color: white;
- line-height: 24px;
+  color: #6070FF;
+  padding: 12px 16px 12px 16px;
+  margin-left: 0 ;
+  border-radius: 5px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  background-color: white;
+  line-height: 24px;
 }
 
 .forms-section {
