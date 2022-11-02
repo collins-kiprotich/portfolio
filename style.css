@@ -55,6 +55,19 @@ h2 {
   color: #172b4d;
 }
 
+form p {
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #fff;
+}
+
 .headline p {
   margin-top: 12px;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
@@ -74,6 +87,11 @@ h2 {
   line-height: 24px;
   color: #7f8cff;
   text-decoration: none;
+}
+
+li {
+  margin-top: 0;
+  padding-bottom: 20px;
 }
 
 .headline li {
@@ -100,6 +118,19 @@ h2 {
   border-radius: 20px;
   margin-bottom: 114px;
   background-color: white;
+}
+
+form h2 {
+  padding-top: 103px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #fff;
 }
 
 .works h2 {
@@ -292,4 +323,53 @@ ul .profesion-container {
   font-size: 15px;
   line-height: 20px;
   color: #253858;
+}
+
+.form-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset {
+  border-radius: 200px 0 0 0;
+  border: none;
+  background: #6070ff;
+  padding-left: 24px;
+  padding-right: 24px;
+  background-image: url(forms/contact-form-shapes-mobile.png);
+  background-size: cover;
+}
+
+form input {
+  display: flex;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  padding-left: 16px;
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+form textarea {
+  border-radius: 5px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  padding-left: 16px;
+  width: 300px;
+}
+
+form button {
+  color: #6070ff;
+  padding: 12px 16px 12px 16px;
+  margin-left: 0;
+  border-radius: 5px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  background-color: white;
+  line-height: 24px;
+}
+
+.forms-section {
+  margin-bottom: 200px;
 }
