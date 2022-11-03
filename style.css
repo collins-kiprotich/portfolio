@@ -25,7 +25,7 @@ header nav {
 }
 
 .right-side a {
-  font-family: 'Poppins';
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -68,8 +68,8 @@ header nav {
     padding-right: 10%;
   }
 
-  div .headline{
-    padding-left: 0px;
+  div .headline {
+    padding-left: 0;
   }
 }
 
@@ -146,7 +146,6 @@ li {
   background-color: #e5e5e5;
 }
 
-
 .parent-container,
 .parent-container2 {
   padding: 16px;
@@ -160,6 +159,7 @@ li {
 .parent-container2 img {
   width: 95%;
 }
+
 @media (min-width: 768px) {
   .parent-container {
     display: grid;
@@ -173,12 +173,13 @@ li {
     grid-template-columns: 1fr 1fr;
   }
 
-  .snapshot-upper{
+  .snapshot-upper {
     display: none;
-   }
+  }
+
   .snapshot-lower {
     display: inline-block;
-  } 
+  }
 }
 
 @media (max-width: 768px) {
@@ -303,12 +304,11 @@ ul .current-li {
     padding-top: 114px;
     margin-bottom: 114px;
   }
-.upper {
-  width: 50%;
-}
 
+  .upper {
+    width: 50%;
   }
-  
+}
 
 .about-myself h2 {
   margin-top: 114px;
@@ -346,7 +346,6 @@ ul .current-li {
 }
 
 @media (min-width: 768px) {
-
   ul .java-html-css-container {
     display: flex;
     flex-direction: row;
@@ -484,7 +483,6 @@ fieldset {
     align-items: center;
     display: flex;
     justify-content: center;
-    align-items: center; 
   }
 }
 
