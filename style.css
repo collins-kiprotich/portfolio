@@ -57,7 +57,7 @@ header nav {
 }
 
 .headline {
-  background-image: url(/images/Header\ bg.svg);
+  background-image: url(./dektopimages/Headerbg.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -70,6 +70,16 @@ header nav {
 
   div .headline {
     padding-left: 0;
+  }
+
+  .snapshot-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .snapshot-desktop {
+    display: none;
   }
 }
 
@@ -186,6 +196,10 @@ li {
   .snapshot-lower {
     display: none;
   }
+
+  .languages .desktop {
+    display: none;
+  }
 }
 
 form h2 {
@@ -228,8 +242,36 @@ form h2 {
   color: #7a869a;
 }
 
-ul .current-li {
+ul .current-li,
+ul .crrentli1,
+ul .desktop {
   color: #344563;
+}
+@media (min-width: 768px) {
+  ul .current-li1 {
+    display: none;
+  }
+
+  ul .mobile2 {
+    display: none;
+  }
+
+  .mobile h2 {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  ul .desktop {
+    display: none;
+  }
+  ul .desktop2 {
+    display: none;
+  }
+
+  .desktop h2 {
+    display: none;
+  }
 }
 
 .works p {
