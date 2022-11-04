@@ -15,6 +15,37 @@ section {
   background-color: white;
 }
 
+@media (min-width: 768px){
+  header nav {
+    padding-left: 7%;
+    padding-right: 10%;
+  }
+
+  .logo{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #6070FF;
+  }
+ 
+  .headline {
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-left: 24%;
+    padding-right: 24%;
+    padding-top: 8%;
+  }
+
+  a .social-media-link {
+    padding-top: 10px;
+  }
+}
+
 header nav {
   display: flex;
   justify-content: space-between;
@@ -32,7 +63,7 @@ header nav {
   line-height: 20px;
   color: #344563;
   text-decoration: none;
-  margin-right: 20px;
+  padding-right: 20px;
 }
 
 @media (max-width: 768px) {
@@ -44,6 +75,11 @@ header nav {
 @media (min-width: 768px) {
   nav img {
     display: none;
+  }
+
+  header {
+    margin-bottom: 5%;
+    padding-right: 6%;
   }
 }
 
@@ -64,16 +100,21 @@ header nav {
 
 @media (min-width: 768px) {
   .headline {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 17%;
+    padding-right: 17%;
   }
 
   div .headline {
     padding-left: 0;
+    padding-top: 0;
   }
 
   .snapshot-mobile {
     display: none;
+  }
+
+  nav {
+    padding-right: 5%;
   }
 }
 
@@ -175,6 +216,11 @@ li {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+
+  .individual-card {
+    padding-top: 5%;
+    padding-left: 5%;
+  }
 }
 
 @media (min-width: 768px) {
@@ -248,6 +294,16 @@ ul .desktop {
   color: #344563;
 }
 @media (min-width: 768px) {
+  ul .current-li,
+  ul .crrentli1,
+  ul .desktop,
+  .li-elements li{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
+}
+
   ul .current-li1 {
     display: none;
   }
@@ -265,6 +321,7 @@ ul .desktop {
   ul .desktop {
     display: none;
   }
+
   ul .desktop2 {
     display: none;
   }
@@ -558,5 +615,58 @@ form button {
 }
 
 .forms-section {
-  margin-bottom: 200px;
+  padding-bottom: 5px;
+}
+
+@media (min-width: 768px) {
+  div .card-h2{  
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091E42;
+  }
+  
+  .individual-card .li-elements {
+    margin-bottom: 2%;
+  }
+
+  .works .para {
+    color: blue;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+    margin-bottom: 5%;
+  }
+
+  .works .languages {
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+
+  .social-icons {
+    padding-bottom: 0px;
+  }
+
+  .lower{
+    flex: 1;
+    padding-bottom: 5%;
+  }
+  
+  .about-me-header h2 {
+    margin-top: 15px;
+  }
+
+  .about-myself p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+  }
 }
