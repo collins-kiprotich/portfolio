@@ -15,14 +15,14 @@ section {
   background-color: white;
 }
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
   header nav {
     padding-left: 7%;
     padding-right: 10%;
   }
 
-  .logo{
-    font-family: 'Poppins';
+  .logo {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -30,9 +30,9 @@ section {
     display: flex;
     align-items: center;
     text-align: center;
-    color: #6070FF;
+    color: #6070ff;
   }
- 
+
   .headline {
     margin-left: 0%;
     margin-right: 0%;
@@ -297,12 +297,12 @@ ul .desktop {
   ul .current-li,
   ul .crrentli1,
   ul .desktop,
-  .li-elements li{
-  font-family: 'Poppins';
-  font-style: normal;
-  font-size: 18px;
-  line-height: 24px;
-}
+  .li-elements li{ 
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 24px;
+   }
 
   ul .current-li1 {
     display: none;
@@ -619,22 +619,21 @@ form button {
 }
 
 @media (min-width: 768px) {
-  div .card-h2{  
-    font-family: 'Poppins';
+  div .card-h2 {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
-    color: #091E42;
+    color: #091e42;
   }
-  
+
   .individual-card .li-elements {
     margin-bottom: 2%;
   }
 
   .works .para {
-    color: blue;
-    font-family: 'Poppins';
+    font-family: 'Poppins',Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -649,20 +648,20 @@ form button {
   }
 
   .social-icons {
-    padding-bottom: 0px;
+    padding-bottom: 0p;
   }
 
-  .lower{
+  .lower {
     flex: 1;
     padding-bottom: 5%;
   }
-  
+
   .about-me-header h2 {
     margin-top: 15px;
   }
 
   .about-myself p {
-    font-family: 'Poppins';
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
