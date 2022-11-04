@@ -293,16 +293,17 @@ ul .crrentli1,
 ul .desktop {
   color: #344563;
 }
+
 @media (min-width: 768px) {
   ul .current-li,
   ul .crrentli1,
   ul .desktop,
-  .li-elements li{ 
+  .li-elements li {
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-size: 18px;
     line-height: 24px;
-   }
+  }
 
   ul .current-li1 {
     display: none;
@@ -633,7 +634,7 @@ form button {
   }
 
   .works .para {
-    font-family: 'Poppins',Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
