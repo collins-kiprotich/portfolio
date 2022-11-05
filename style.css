@@ -670,3 +670,14 @@ form button {
     color: #344563;
   }
 }
+
+@media (min-width: 768px) {
+.see-project-button:hover,
+.form-button:hover,
+.get-my-resume-button:hover {
+  transform: scale(1.5);
+  background-color: #6070ff;
+  color: #fff;
+  
+}
+}
