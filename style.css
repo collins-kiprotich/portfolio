@@ -374,7 +374,15 @@ ul .desktop {
   padding: 4px 12px;
   border-radius: 9px;
   margin-bottom: 20px;
+  animation: kenRotation 6s;
 }
+  
+@keyframes kenRotation {
+  to {
+      transform: rotate(360deg);
+    }
+}
+
 
 .languages li {
   list-style: none;
