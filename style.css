@@ -369,7 +369,7 @@ ul .desktop {
 @keyframes kenRotation {
   to {
     transform: rotate(360deg);
-    }
+  }
 }
 
 .languages li {
