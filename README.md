@@ -25,7 +25,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Deployment
 Below is a link to my deployed project on github pages
-[deployment link](https://github.com/collins-kiprotich/collins-kiprotich.github.io/blob/main/README.md)
+[deployment link](https://collins-kiprotich.github.io/)
 
 ## Authors
 
