@@ -37,21 +37,24 @@ section {
 
 @keyframes rotateZ {
   to {
-        transform: rotate(180deg);
-    }
+    transform: rotate(180deg);
   }
-  .headline {
-    margin-left: 0%;
-    margin-right: 0%;
-    padding-left: 24%;
-    padding-right: 24%;
-    padding-top: 8%;
-  }
+}
 
-  a .social-media-link {
-    padding-top: 10px;
-  }
+.headline {
+  margin-left: 0%;
+  margin-right: 0%;
+  padding-left: 24%;
+  padding-right: 24%;
+  padding-top: 8%;
+  background-image: url(./dektopimages/Headerbg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+a .social-media-link {
+  padding-top: 10px;
+}
 
 header nav {
   display: flex;
@@ -98,12 +101,6 @@ header nav {
     margin-bottom: 5%;
     padding-right: 6%;
   }
-}
-
-.headline {
-  background-image: url(./dektopimages/Headerbg.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 @media (min-width: 768px) {
