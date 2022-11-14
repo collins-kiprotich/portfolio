@@ -13,3 +13,17 @@ hamburgerMenu.addEventListener('click', ()=> {
   main.style.filter= 'blur(0.3125rem)';
   menuDiv.style.display= 'flex';
 });
+
+let crossIcon=document.querySelectorAll(".menu-content img");
+crossIcon[0].addEventListener('click',()=> {
+    main.style.filter= 'blur(0)';
+    menuDiv.style.display= 'none';
+});
+let itemList = document.querySelectorAll('.menu-content a');
+
+ itemList.forEach(item => {
+   item.addEventListener('click',()=> {
+    main.style.filter= 'blur(0)';
+    menuDiv.style.display= 'none';
+});
+ });
