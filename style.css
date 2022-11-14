@@ -692,3 +692,7 @@ form button {
     color: #fff;
   }
 }
+
+.menu-content {
+  position:fixed;
+}
