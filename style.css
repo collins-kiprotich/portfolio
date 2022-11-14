@@ -695,4 +695,26 @@ form button {
 
 .menu-content {
   position:fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  flex-direction: column;
+  background-color: #1b31f0a2;
+  padding: 33px 38px 0 28px;
+}
+
+.menu-content img {
+  justify-self: center;
+  align-self: flex-end;
+  margin-right: 40px;
+}
+
+.menu-content a {
+  text-decoration: none;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  padding-top: 40px;
+  color: #fff;
 }
