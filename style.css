@@ -20,6 +20,17 @@ section {
     padding-left: 7%;
     padding-right: 10%;
   }
+
+  .headline {
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-left: 24%;
+    padding-right: 24%;
+    padding-top: 8%;
+    background-image: url(./dektopimages/Headerbg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
 
 .logo {
@@ -32,28 +43,16 @@ section {
   align-items: center;
   text-align: center;
   color: #6070ff;
-  animation: rotateZ 5s;
-}
-
-@keyframes rotateZ {
-  to {
-    transform: rotate(180deg);
-  }
-}
-
-.headline {
-  margin-left: 0%;
-  margin-right: 0%;
-  padding-left: 24%;
-  padding-right: 24%;
-  padding-top: 8%;
-  background-image: url(./dektopimages/Headerbg.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  text-decoration: none;
 }
 
 a .social-media-link {
   padding-top: 10px;
+  padding-left: 0;
+}
+
+.headline div {
+  padding-left: 0;
 }
 
 header nav {
@@ -75,15 +74,6 @@ header nav {
   text-decoration: none;
   padding-right: 20px;
   animation-name: kenAnimation;
-  animation-duration: 8s;
-}
-
-@keyframes kenAnimation {
-  0% { border: none; }
-  25% { border: 1px solid teal; }
-  50% { border: 1px solid red; }
-  75% { border: 1px solid lightblue; }
-  100% { border: none; }
 }
 
 @media (max-width: 768px) {
@@ -103,15 +93,15 @@ header nav {
   }
 }
 
+.headline {
+  padding-left: 0;
+  padding-top: 0;
+}
+
 @media (min-width: 768px) {
   .headline {
     padding-left: 17%;
     padding-right: 17%;
-  }
-
-  div .headline {
-    padding-left: 0;
-    padding-top: 0;
   }
 
   .snapshot-mobile {
@@ -339,7 +329,7 @@ ul .desktop {
 
 .works p {
   font-family: 'poppins', Arial, Helvetica, sans-serif;
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 15px;
   line-height: 24px;
   color: #344563;
@@ -349,7 +339,7 @@ ul .desktop {
   padding: 0 0 0 0;
   display: flex;
   align-items: center;
-  flex: start;
+  flex: 1;
 }
 
 .language-button {
@@ -357,7 +347,7 @@ ul .desktop {
   color: #6070ff;
   border: none;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 12px;
   line-height: 16px;
   padding: 4px 12px;
@@ -434,7 +424,7 @@ ul .desktop {
   margin-top: 12px;
   margin-bottom: 12px;
   font-family: 'poppins', Arial, Helvetica, sans-serif;
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 15px;
   line-height: 24px;
   color: #344563;
@@ -517,8 +507,6 @@ li .frameworks {
 .java-html-css-container {
   display: flex;
   flex-direction: column;
-  width: 1fr;
-  grid-row: 10px;
   list-style: none;
 }
 
@@ -691,4 +679,30 @@ form button {
     background-color: #6070ff;
     color: #fff;
   }
+}
+
+.menu-content {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  flex-direction: column;
+  background-color: #1b31f0a2;
+  padding: 33px 38px 0 28px;
+}
+
+.menu-content img {
+  justify-self: center;
+  align-self: flex-end;
+  margin-right: 40px;
+}
+
+.menu-content a {
+  text-decoration: none;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  padding-top: 40px;
+  color: #fff;
 }
