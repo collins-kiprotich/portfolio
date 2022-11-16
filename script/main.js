@@ -76,11 +76,11 @@ let projects = [
   p : 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
   languages : ['html','css','javascript','github','ruby','Bootsrap'],
   btn1 : 'https://collins-kiprotich.github.io/',
-  btn2 : 'https://github.com/collins-kiprotich/portfolio.git'
-},
+  btn2 : 'https://github.com/collins-kiprotich/portfolio.git',
+  },
 {
-  id : 'project-6',
-  h1 : 'Multi-Post Stories',
+  id: 'project-6',
+  h1: 'Multi-Post Stories',
   subtitles:['Facebook','.','Full Stack Dev','.','2015'],
   image : 'dektopimages/Snapshoot Portfolio2.png',
   p : 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
@@ -142,7 +142,7 @@ for (const item of projects) {
       <div class="languages">
       <ul>${languageList}</ul>
     </div>
-    <div class="buttons">
+    <div cla ss="buttons">
     <a href="${item.btn1}" target="_blank"><button id="see-live-btn"> See live <img src="popimages/Icon.png" alt="po"></button></a>
     <a href="${item.btn2}" target="_blank"><button id="see-source-btn"> See Source <img src="popimages/Vector.png" alt="po"></button></a>
       </div>

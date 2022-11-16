@@ -353,7 +353,6 @@ ul .desktop {
   padding: 4px 12px;
   border-radius: 9px;
   margin-bottom: 20px;
-  
 }
 
 .languages li {
@@ -703,13 +702,12 @@ form button {
 
 .pop-window {
   position: fixed;
-  background-color:white;
+  background-color: white;
   border-radius: 5%;
   top: 2%;
   bottom: 2%;
   left: 2%;
   right: 2%;
-  display: flex;
   flex-direction: column;
   padding-left: 16px;
   padding-right: 16px;
@@ -717,6 +715,7 @@ form button {
   padding-bottom: 1%;
   overflow-y: scroll;
 }
+
 .headline-cross {
   display: flex;
   justify-content: space-between;
@@ -729,9 +728,8 @@ form button {
   font-size: 32px;
   font-weight: 700;
   color: #172b4d;
-  
-  
 }
+
 .headline-cross .cross {
   padding-right: 30px;
   font-weight: bold;
@@ -746,11 +744,9 @@ form button {
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-weight: 600;
   font-size: 13px;
-  color: #7A869A;
+  color: #7a869a;
   list-style: none;
-
 }
-
 
 .mobile-image img {
   height: auto;
@@ -760,7 +756,6 @@ form button {
   display: flex;
   padding: 0;
   gap: 5px;
-  
 }
 
 .pop-window .languages li {
@@ -771,104 +766,101 @@ form button {
 }
 
 .mobile-paragraph {
-  font-family: 'Poppins';
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-  color: #344563 ;
+  color: #344563;
   margin-bottom: 6px;
   margin-top: 6px;
-  
 }
 
 .pop-window .languages {
   display: flex;
   column-gap: 8px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
   color: #6070ff;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 0;
+  margin-bottom: 0;
   padding: 0;
-
 }
 
 .languages ul {
-  padding:  0;
+  padding: 0;
   border-radius: 20%;
   margin-top: 0;
 }
-@media (min-width :768px) {
+
+@media (min-width: 768px) {
   .pop-window .languages {
     display: flex;
     column-gap: 8px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
     line-height: 16px;
     color: #6070ff;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
     padding: 0;
     margin-right: 10%;
   }
+
   .buttons {
     display: flex;
     gap: 10px;
     margin-top: 10px;
     float: right;
   }
-  .mobile-paragraph {
-    width: 3fr;
-   
-  }
+
   .mobile-image img {
-    height: 200px;
     width: 100%;
     height: 100vh;
   }
-  .subtitle-item  {
+
+  .subtitle-item {
     display: flex;
     gap: 12px;
     align-items: center;
     float: right;
-  
   }
-  
-  .para-lang-btn{
+
+  .para-lang-btn {
     margin-top: 10px;
     display: grid;
     grid-template-columns: auto auto;
     padding-bottom: 2%;
   }
+
   .para-lang-btn p {
-    width: 1fr;
     font-size: 16px;
   }
-  .lang-btn{
-    width: 200px;
+
+  .lang-btn {
     flex-direction: column;
     align-items: center;
     justify-content: start;
     flex: 1;
     margin-left: 24px;
     margin-bottom: 50px;
-    width: 354px;
   }
-  
+
   .lang-btn .languages {
     align-content: flex-end;
   }
+
   .pop-window {
     border-radius: 2%;
     padding-bottom: 2%;
   }
 }
+
 .buttons {
   display: flex;
   gap: 10px;
@@ -877,44 +869,39 @@ form button {
 }
 
 .pop-window button {
-  font-family: 'Poppins';
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
-  color: #396DF2;
+  color: #396df2;
   padding: 10px;
-  border: 0.5px solid #396DF2;
+  border: 0.5px solid #396df2;
   border-radius: 10%;
   cursor: pointer;
 }
 
-.subtitle-item  {
+.subtitle-item {
   display: flex;
   gap: 12px;
   align-items: center;
-
-}
-.subtitle-item li {
-  background-color: none;
 }
 
 .pop-container {
   display: none;
 }
-@media (min-width:768px){
+
+@media (min-width: 768px) {
   .mobile-parent-container {
     display: none;
   }
 }
 
-@media (max-width:768px) {
-  
+@media (max-width: 768px) {
   .desktop-parentcontainer {
     display: none;
   }
-  } 
+}
 
-  .popup-container{
-    display: none;
-  }
-
+.popup-container {
+  display: none;
+}
