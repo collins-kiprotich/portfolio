@@ -171,3 +171,10 @@ for (const item of projects) {
     });
   };
 
+  let crossList = document.querySelectorAll('.cross');
+for (let i = 0; i<crossList.length;i++) {
+  crossList[i].addEventListener('click', () => {
+    projectList[i].style.display = 'none';
+    main.style.filter='blur(0)';
+  });
+};
