@@ -120,7 +120,7 @@ projects.forEach((item) => {
   let languageList = '';
   item.languages.forEach((item1) => {
     languageList += `<li>${item1}</li>`;
-  }); 
+  });
   const projectPopupContent = `<div class="pop-window">
     <div class="headline-cross">
       <h2>${item.h1}</h2>
@@ -152,15 +152,15 @@ projects.forEach((item) => {
 
 for (let i = 0; i < projects.length; i += 1) {
   projects[i].id = document.createElement('div');
-  projects[i].id.className ='popup-container';
-  projects[i].id.innerHTML= myProjectArray[i];
+  projects[i].id.className = 'popup-container';
+  projects[i].id.innerHTML = myProjectArray[i];
   body.appendChild(projects[i].id);
-  }
+}
 
 const projectButtons = document.querySelectorAll('.see-project-button');
 const projectList = document.querySelectorAll('.popup-container');
 
-  for (let i = 0; i < projectButtons.length; i += 1) {
+for (let i = 0; i < projectButtons.length; i += 1) {
   projectButtons[i].addEventListener('click', () => {
     projectList[i].style.display = 'flex';
     document.getElementsByClassName('.popwindow');
@@ -172,6 +172,6 @@ const crossList = document.querySelectorAll('.cross');
 for (let i = 0; i < crossList.length; i += 1) {
   crossList[i].addEventListener('click', () => {
     projectList[i].style.display = 'none';
-    main.style.filter ='blur(0)';
+    main.style.filter = 'blur(0)';
   });
 }
