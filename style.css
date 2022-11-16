@@ -760,9 +760,14 @@ form button {
 
 .pop-window .languages li {
   margin-right: 5px;
-  background-color: rgb(226, 219, 219);
-  padding: 0 6px;
+  background-color: #f0f0f0;
+  padding: 4px 12px;
   border-radius: 20%;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
 }
 
 .mobile-paragraph {
@@ -817,6 +822,7 @@ form button {
     gap: 10px;
     margin-top: 10px;
     float: right;
+    background-color: #396df2;
   }
 
   .mobile-image img {
@@ -834,7 +840,7 @@ form button {
   .para-lang-btn {
     margin-top: 10px;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 70% 30%;
     padding-bottom: 2%;
   }
 
@@ -866,6 +872,7 @@ form button {
   gap: 10px;
   margin-top: 10px;
   cursor: pointer;
+  background-color: white;
 }
 
 .pop-window button {
@@ -894,6 +901,12 @@ form button {
   .mobile-parent-container {
     display: none;
   }
+
+  .languages ul {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 240px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -904,4 +917,28 @@ form button {
 
 .popup-container {
   display: none;
+}
+
+#see-live-btn,
+#see-source-btn {
+  background-color: white;
+  padding: 10px 25px;
+  border-radius: 10px;
+  margin-right: 6px;
+}
+
+@media (max-width: 768px) {
+  #see-live-btn,
+  #see-source-btn {
+    background-color: white;
+    padding: 10px 25px;
+    border-radius: 10px;
+    margin-right: 6px;
+    margin-top: 20px;
+  }
+
+  .languages ul {
+    margin-top: 10px;
+    padding-bottom: 8px;
+  }
 }
