@@ -175,3 +175,12 @@ for (let i = 0; i < crossList.length; i += 1) {
     main.style.filter = 'blur(0)';
   });
 }
+
+const form = document.querySelector('.contact-form');
+const email = document.querySelector('#email');
+const errorMsg = document.querySelector('.error-info');
+form.addEventListener('submit', (event) => {
+  if (email.value.toLowerCase() !== email.value) {
+    event.preventDefault();
+  }
+});
