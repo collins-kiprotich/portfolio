@@ -184,3 +184,15 @@ form.addEventListener('submit', (event) => {
     event.preventDefault();
   }
 });
+
+email.addEventListener('input', () => {
+  if (email.value.toLowerCase() !== email.value) {
+    email.classList.toggle('invalid');
+    errorMsg.textContent = 'Your email must be in lower case letters';
+    errorMsg.classList.toggle('d-hide');
+  } else {
+    email.classList.remove('invalid');
+    errorMsg.textContent = '';
+    errorMsg.classList.add('d-hide');
+  }
+});
