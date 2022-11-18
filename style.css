@@ -962,3 +962,6 @@ form button {
 .invalid {
   color:red;
 }
+
+.d-hide {
+  display: none;
