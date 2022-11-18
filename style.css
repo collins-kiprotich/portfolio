@@ -958,3 +958,7 @@ form button {
     margin-right: 15%;
   }
 }
+
+.invalid {
+  color:red;
+}
