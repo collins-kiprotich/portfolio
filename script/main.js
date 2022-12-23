@@ -2,7 +2,7 @@ const body = document.querySelector('body');
 const menuDiv = document.createElement('div');
 menuDiv.className = 'menu-content';
 menuDiv.style.display = 'none';
-const divContent = '<img src="./icon-images/Icon- cross icon.png" alt=""> <a href="#portfolio"> Portfolio</a> <a href="#aboutMe"> About</a> <a href="#form"> Contact</a>';
+const divContent = '<img src="./icon-images/icon-cross.png" alt="x"> <a href="#portfolio"> Portfolio</a> <a href="#aboutMe"> About</a> <a href="#form"> Contact</a>';
 menuDiv.innerHTML = divContent;
 body.appendChild(menuDiv);
 const main = document.querySelector('main');
@@ -30,13 +30,13 @@ itemList.forEach((item) => {
 const projects = [
   {
     id: 'project-1',
-    h1: 'Tonic',
+    h1: 'To-do List',
     subtitles: ['canopy', '.', 'BackEndDev', '.', '2015'],
     image: 'snapshotimages/Snapshoot-Portfolio.png',
     p: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     languages: ['html', 'css', 'javascript'],
-    btn1: 'https://collins-kiprotich.github.io/',
-    btn2: 'https://github.com/collins-kiprotich/portfolio.git',
+    btn1: 'https://collins-kiprotich.github.io/To-Do-List/dist/',
+    btn2: 'https://github.com/collins-kiprotich/To-Do-List',
   },
   {
     id: 'project-2',
@@ -70,13 +70,13 @@ const projects = [
   },
   {
     id: 'project-5',
-    h1: 'Tonic',
+    h1: 'To-do List',
     subtitles: ['canopy', '.', 'BackEndDev', '.', '2015'],
     image: 'dektopimages/Snapshoot Portfolio.png',
     p: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-    languages: ['html', 'css', 'javascript', 'github', 'ruby', 'Bootsrap'],
-    btn1: 'https://collins-kiprotich.github.io/',
-    btn2: 'https://github.com/collins-kiprotich/portfolio.git',
+    languages: ['html', 'css', 'javascript', 'github'],
+    btn1: 'https://collins-kiprotich.github.io/To-Do-List/dist/',
+    btn2: 'https://github.com/collins-kiprotich/To-Do-List',
   },
   {
     id: 'project-6',
